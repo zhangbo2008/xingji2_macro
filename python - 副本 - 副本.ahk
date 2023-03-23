@@ -199,7 +199,7 @@ return
 
 
 ;鼠标侧键暴兵按起来最方便,用来爆mm ,上面是光头,下面是枪兵.
-#IFWinActive ahk_exe SC2_x64.exe
+
 
 
 XButton1::   ;鼠标辅助下面那个按钮
@@ -207,7 +207,7 @@ SendInput, 3adadaddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 Send, {1}
 return 
 
-#IFWinActive ahk_exe SC2_x64.exe
+
 
 
 XButton2::  ;鼠标辅助上面那个
@@ -240,7 +240,7 @@ return
 
 
 ;F6 4个地雷mm不对. 打虫族用这个.
-#IFWinActive ahk_exe SC2_x64.exe    
+    
 
 
 F6::
@@ -291,7 +291,7 @@ return
 
 
 ;中的选中空闲农民设置为空格.
-#IFWinActive ahk_exe SC2_x64.exe       
+       
 
 
 $Space::
@@ -337,7 +337,7 @@ return
 ;=============虫族快捷键放这里.===开始.
 */
 ;这个快捷键是把所有的基地和科技建筑都编入4.这样我们方便按4查看所有科技的升级情况.
-#IFWinActive ahk_exe SC2_x64.exe
+
 
 
 
@@ -358,7 +358,7 @@ return
 ;注卵的.;女王站基地附近即可. 按住就是不停注卵, 点一下就是注卵一个基地.
 
 
-#IFWinActive ahk_exe SC2_x64.exe
+
 XButton2::
 
 Loop
@@ -401,7 +401,7 @@ return
 
 
 
-#IFWinActive ahk_exe SC2_x64.exe
+
 
 
 XButton1::
@@ -430,7 +430,6 @@ return
 
 
 
-#IFWinActive ahk_exe SC2_x64.exe
 
 ;一键注卵3个基地.
 F5::
@@ -469,7 +468,7 @@ return
 
 
 ;中的选中空闲农民设置为空格.游戏快捷键设置.
-#IFWinActive ahk_exe SC2_x64.exe       
+       
 
 
 $Space::
